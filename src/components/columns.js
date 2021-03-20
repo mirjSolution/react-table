@@ -8,17 +8,20 @@ export const COLUMNS = [
     accessor: 'id',
     // Filter: ColumnFilter,
     disableFilters: true,
+    sticky: 'left',
   },
   {
     Header: 'First Name',
     Footer: 'First Name',
     accessor: 'first_name',
+    sticky: 'left',
     // Filter: ColumnFilter,
   },
   {
     Header: 'Last Name',
     Footer: 'Last Name',
     accessor: 'last_name',
+    sticky: 'left',
     // Filter: ColumnFilter,
   },
   {
@@ -40,6 +43,18 @@ export const COLUMNS = [
     Header: 'Phone',
     Footer: 'Phone',
     accessor: 'phone',
+    // Filter: ColumnFilter,
+  },
+  {
+    Header: 'Email',
+    Footer: 'Email',
+    accessor: 'email',
+    // Filter: ColumnFilter,
+  },
+  {
+    Header: 'Age',
+    Footer: 'Age',
+    accessor: 'age',
     // Filter: ColumnFilter,
   },
 ];
